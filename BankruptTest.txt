@@ -1,0 +1,33 @@
+4
+Danielle T 0 245 34
+Alice G 1 7278 11
+Bob P 1 232 35
+Charlie D 1 40 35
+AL Danielle -1
+ML Alice 3
+MKV Bob -1
+ECH Bob -1
+PAS Charlie -1
+HH Bob -1
+RCH Danielle -1
+PAC Alice 0
+DWE BANK 0
+CPH Charlie -1
+UWP Bob -1
+LHI Charlie -1
+BMH Charlie -1
+OPT Bob -1
+EV1 Danielle -1
+EV2 BANK 0
+EV3 Bob -1
+V1 Bob -1
+PHYS Danielle -1
+B1 Danielle -1
+CIF Charlie -1
+B2 Danielle -1
+EIT Charlie -1
+ESC Charlie -1
+C2 Charlie -1
+REV Bob -1
+MC Alice 4
+DC Alice 4
