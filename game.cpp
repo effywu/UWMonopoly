@@ -668,9 +668,21 @@ bool Game::finance(int p, int amount, int owner) {
         } else if (option == "bankrupt") { //declare bankrupt
             
             if (!player[p]->canBankrupt()) { // if can not bankrupt
-                cout << "( Don't give up! )" << endl;
-                cout << "( Please try sell any improvement and mortgage properties )" << endl;
-                continue;
+                cout<<"(Are you sure to bankrupt?y/n)"<<endl;
+                string yorn;
+                cin>>yorn;
+                if (yorn=="y") {
+                    bankruptcy(p,owner);
+                    
+                }else if (yorn=="n"){
+                    continue;
+                }else{
+                    cout<<("(Invalid input)")<<endl;
+                    continue;
+                }
+                //cout << "( Don't give up! )" << endl;
+                //cout << "( Please try sell any improvement and mortgage properties )" << endl;
+                //continue;
             } else {
                 bankruptcy(p, owner);
                 return false;};
